@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Run LeetCode Sync
-        uses: joshcai/leetcode-sync@v1.7.0
+        uses: joshcai/leetcode-sync@v1.7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode_session: ${{ secrets.LEETCODE_SESSION }}
-          leetcode_csrf_token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
